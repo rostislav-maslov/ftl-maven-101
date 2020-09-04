@@ -1,0 +1,48 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.rmaslov.maven</groupId>
+    <artifactId>suite</artifactId>
+    <version>1.0.0</version>
+
+    <packaging>pom</packaging>
+
+    <name>suite</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Rostislav Maslov</name>
+            <email>maslov.rostislav@gmail.com</email>
+            <organization>com.github.rostislav-maslov</organization>
+            <organizationUrl>https://github.com/rostislav-maslov</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/rostislav-maslov/mvn-core-101-test.git</connection>
+        <developerConnection>scm:git:ssh://github.com:rostislav-maslov/mvn-core-101-test.git</developerConnection>
+        <url>http://github.com/rostislav-maslov/mvn-core-101-test</url>
+    </scm>
+
+    <modules>
+        <module>../core</module>
+        <module>../service</module>
+        <module>../console</module>
+    </modules>
+
+</project>
